@@ -2,6 +2,17 @@ Max Repair Ranger
 
 Max Repair Ranger is a professional handyman service website created to help Max showcase his skills and offer a seamless user experience for booking appointments, contacting, and learning about the services provided.
 
+screenshots
+![Screenshot 2024-11-13 133843](https://github.com/user-attachments/assets/96dd0bbc-7339-4e57-852f-83fb009f7ef4)
+
+![Screenshot 2024-11-13 133956](https://github.com/user-attachments/assets/39f6a3bd-1472-42fd-8a52-4d958a951917)
+
+![Screenshot 2024-11-13 134007](https://github.com/user-attachments/assets/1b703221-f6a9-439e-85cf-0bd9204366c9)
+
+![Screenshot 2024-11-13 134044](https://github.com/user-attachments/assets/bbbc8da8-00f9-4819-8242-f9b048f8814e)
+
+
+
 ## Features
 
 - **Homepage**: Introduces Max's handyman services, highlights his experience, and showcases customer testimonials.
