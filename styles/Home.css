@@ -1,0 +1,76 @@
+.home {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+ }
+ 
+ .hero-section {
+    position: relative;
+    text-align: center;
+    color: #fff;
+ }
+ 
+ .hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.85;
+ }
+ 
+ .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+ 
+ .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+ }
+ 
+ .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .cta-button {
+    background-color: #004aad;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .cta-button:hover {
+    background-color: #002f6c;
+ }
+ 
+ .about-section,
+ .services-section,
+ .testimonials-section {
+    padding: 2rem;
+    text-align: center;
+ }
+ 
+ .about-section h2,
+ .services-section h2,
+ .testimonials-section h2 {
+    font-size: 2rem;
+    color: #004aad;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+ }
+ 
+ .about-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+ } 

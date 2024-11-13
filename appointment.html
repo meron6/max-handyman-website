@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Book an Appointment | Max Repair Ranger</title>
+   <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+   <header>
+      <h1>Max Repair Ranger</h1>
+      <nav aria-label="Primary Navigation">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <section class="appointment-section">
+         <h2>Book an Appointment</h2>
+         <p>Schedule a time for Max to visit and assist with your handyman needs.</p>
+
+         <div class="appointment-form">
+            <form action="php/submit_appointment.php" method="POST" aria-labelledby="appointment-form">
+               <fieldset>
+                  <legend id="appointment-form">Appointment Details</legend>
+
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required aria-label="Enter your full name">
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required aria-label="Enter your email address">
+
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter 10-digit phone number" aria-label="Enter your phone number">
+
+                  <label for="date">Preferred Date:</label>
+                  <input type="date" id="date" name="date" required aria-label="Select your preferred date for appointment">
+
+                  <label for="time">Preferred Time:</label>
+                  <input type="time" id="time" name="time" required aria-label="Select your preferred time for appointment">
+
+                  <label for="service">Service Needed:</label>
+                  <select id="service" name="service" required aria-label="Select the service you need">
+                     <option value="" disabled selected>Select a Service</option>
+                     <option value="plumbing">Plumbing</option>
+                     <option value="electrical">Electrical Work</option>
+                     <option value="furniture">Furniture Assembly</option>
+                     <option value="painting">Painting</option>
+                     <option value="carpentry">Carpentry</option>
+                     <option value="home-repairs">General Home Repairs</option>
+                  </select>
+
+                  <label for="notes">Additional Notes:</label>
+                  <textarea id="notes" name="notes" rows="4" placeholder="Any additional information..." aria-label="Provide any additional details or requests"></textarea>
+
+                  <button type="submit">Book Appointment</button>
+               </fieldset>
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <footer>
+      <p>&copy; 2024 Max Repair Ranger - Reliable Handyman Services</p>
+   </footer>
+</body>
+</html>
